@@ -5,15 +5,9 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
-    unoptimized: true,
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'res.cloudinary.com',
-        pathname: '**',
-      }
-    ]
+    unoptimized: true
   },
   output: "export",
-  reactStrictMode: true
+  reactStrictMode: true,
+  basePath: "/developer-portfolio/"
 }

@@ -4,14 +4,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
-import './css/card.scss';
-import './css/globals.scss';
-const inter = Inter({ subsets: ['latin'] });
 
-export const metadata = {
-  title: 'Portfolio of David Ferreira',
-  description: 'This is the portfolio of David Ferreira. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
-}
+const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({ children }) {
   return (

@@ -20,6 +20,8 @@
     "react-toastify": "^10.0.4"
   },
   "devDependencies": {
+    "@types/node": "20.11.30",
+    "@types/react": "18.2.72",
     "autoprefixer": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",

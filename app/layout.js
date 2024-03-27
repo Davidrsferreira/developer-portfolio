@@ -4,6 +4,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/footer';
 import Navbar from './components/navbar';
+import './css/card.scss';
+import './css/globals.scss';
 
 const inter = Inter({ subsets: ['latin'] });
 

@@ -1,11 +1,16 @@
-/**
- * @type {import('next').NextConfig}
- */
+const path = require('path')
 
-const nextConfig = {
-  output: "export",
-  reactStrictMode: true,
-  basePath: "/"
-};
-
-module.exports = nextConfig;
+module.exports = {
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'styles')],
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '**',
+      }
+    ]
+  }
+}

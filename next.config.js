@@ -1,10 +1,11 @@
-const path = require('path')
- 
-module.exports = {
-  sassOptions: {
-    includePaths: [path.join(__dirname, 'styles')],
-  },
+
+const nextConfig = {
+  output: "export",
+  reactStrictMode: true,
+  basePath: "/developer-portfolio",
   images: {
-    domains: ['res.cloudinary.com', 'media.dev.to']
+    unoptimized: true
   }
-}
+};
+
+module.exports = nextConfig;

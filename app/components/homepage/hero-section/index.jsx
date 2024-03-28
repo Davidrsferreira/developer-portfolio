@@ -6,12 +6,13 @@ import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import { imagePaths } from "@/public/imagePaths";
 
 function HeroSection() {
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
       <Image
-        src="/hero.svg"
+        src={imagePaths.hero}
         alt="Hero"
         width={1572}
         height={795}

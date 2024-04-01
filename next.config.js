@@ -9,5 +9,10 @@ module.exports = {
     unoptimized: true
   },
   output: "export",
-  reactStrictMode: true
+  reactStrictMode: true,
+  env: {
+    NEXT_PUBLIC_EMAILJS_SERVICE_ID: 'service_ehbi9sr',
+    NEXT_PUBLIC_EMAILJS_TEMPLATE_ID: 'emailJs_template',
+    NEXT_PUBLIC_EMAILJS_PUBLIC_KEY: '6L45PT2kfCbBuXoU2'
+  }
 }

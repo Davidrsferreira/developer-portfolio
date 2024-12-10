@@ -8,5 +8,5 @@ export const personalData = {
   address: 'Brazil',
   github: 'https://github.com/davidrsferreira',
   linkedIn: 'https://www.linkedin.com/in/davidrsferreira/',
-  resume: "https://drive.google.com/file/d/1plRS1QZr14WCvSOw1KvFwVjMtMEx66lU/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1PS7dqKUqW716pnrublV_o_eMnkmvyebm/view?usp=drive_link"
 }
